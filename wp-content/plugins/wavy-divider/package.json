@@ -1,0 +1,30 @@
+{
+    "name": "wavy-divider",
+    "version": "0.1.0",
+    "description": "Add wavy SVG dividers to your block editor",
+    "author": "Kevin Batdorf",
+    "license": "GPL-2.0-or-later",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "format": "wp-scripts format",
+        "lint:css": "wp-scripts lint-style",
+        "lint:js": "wp-scripts lint-js",
+        "start": "wp-scripts start",
+        "packages-update": "wp-scripts packages-update"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^11.7.0",
+        "@wordpress/blocks": "^12.7.0",
+        "@wordpress/i18n": "^4.30.0"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^26.1.0",
+        "eslint": "^8.37.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0"
+    }
+}
